@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    margin: 40px auto;
+    font-family: roboto;
+    font-size: 18px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section{
+    width: 800px;
+    margin: 40px auto;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.title,.author{
+display: flex;
+flex-direction: column;
+flex: 2;
+margin: auto 10px;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.submit{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.btn{
+    padding: 12px 40px;
+    margin-top: 35px;
+    background-color: rgb(55, 217, 253);
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+input{
+    padding: 15px 0;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+select{
+    padding: 15px 25px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+label{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.display-section{
+    width: 800px;
+    margin: 40px auto 0 auto;
+}
+
+.book-header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.book-card{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.book-title{
+    flex: 1;
+}
+.book-author{
+    flex: 1;
+}
+.book-status{
+    flex: 1;
+}
+.book-delete{
+    flex: 1;
+}
+
+
+.bookTitle{
+    display: flex;
+    flex: 1;
+}
+.bookAuthor{
+    display: flex;
+    flex: 1;
+}
+.bookStatus{
+    display: flex;
+    flex: 1;
+}
+
+
+
+.delete-section{
+    display: flex;
+    flex: 1;
+}
+
+button{
+    background-color: rgb(255, 24, 24);
+    padding: 10px 30px;
+    border: none;
+    font-size: 1.15rem;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}

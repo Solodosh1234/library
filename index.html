@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>library</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">library app</h1>
+    </header>
+   <div class="container">
+     <div class="form-section">
+      <form action="" name="form">
+        <div class="title">
+          <label for="title">title</label>
+          <input type="text" name="title" placeholder="set title">
+        </div>
+
+        <div class="author">
+          <label for="author">author</label>
+          <input type="text" name="author" placeholder="set author">
+        </div>
+        <div class="status">
+          <label for="status">status</label>
+          <select name="status" id="">
+            <option value="read">read</option>
+            <option value="not read">Not read</option>
+          </select>
+        </div>
+        <div class="submit">
+          <input type="submit" class="btn" value="add">
+        </div>
+      </form>
+     </div>
+     <div class="display-section">
+      <div class="book-header">
+        <div class="book-title">
+          <h3>title</h3>
+        </div>
+        <div class="book-author">
+          <h3>author</h3>
+        </div>
+        <div class="book-status">
+          <h3>status</h3>
+        </div>
+        <div class="book-delete"></div>
+      </div>
+      <div class="book-section"></div>
+      
+     </div>
+   </div>  
+    <script src="./index.js"></script>
+  </body>
+</html>
